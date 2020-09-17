@@ -6,6 +6,7 @@ public class Main {
     private static Scanner scanner = new Scanner(System.in);
     public static void main(String[] args) {
 
+
         System.out.println("Ваша задача угадать число.");
         for (int i = 10; i <=30; i += 10) playLevel(i);
         System.out.println("Вы выиграли!!!");
